@@ -1,0 +1,821 @@
+body
+{	
+	font-family: 'Lato', sans-serif;
+	background-image: url("../img/hexellence.png");
+	margin: 0;
+	padding: 0;	
+	color: white;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+
+#footer
+{
+	background-color: darkgrey;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 5px;
+}
+
+#footer p
+{
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+#optionsMenu
+{
+	width: 100%;
+	height: 30px;
+	padding: 2px;
+}
+
+#optionsMenu #languages
+{
+	float: left;
+	width: 200px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+#optionsMenu #languages #uk
+{
+	float: left;
+	width: 40px;
+	height: 30px;
+	margin-left: 10px;
+	background-image: url("../img/uk.png");
+	background-size: cover;
+}
+
+#optionsMenu #languages #pl
+{
+	float: left;
+	width: 40px;
+	height: 30px;
+	margin-left: 10px;
+	background-image: url("../img/pl.png");
+	background-size: cover;
+}
+
+#optionsMenu #typeMode
+{
+		float: right;
+		width: 200px;
+		text-align: center;
+
+}
+
+#optionsMenu #typeMode #dark
+{
+		float: right;
+		width: 80px;
+		height: 30px;
+		border: 1px solid black;
+		margin-right: 5px;
+		font-weight: bold;
+		background-color: grey;
+		color: white;
+}
+
+#optionsMenu #typeMode #dark:hover
+{
+	background-color: darkgrey;
+	cursor: pointer
+}
+
+#optionsMenu #typeMode #light
+{
+		float: right;
+		width: 80px;
+		height: 30px;
+		border: 1px solid black;
+		font-weight: bold;
+		background-color: grey;
+		color: white;
+
+}
+
+#optionsMenu #typeMode #light:hover
+{
+	background-color: darkgrey;
+	cursor: pointer
+}
+
+#optionsMenu #typeMode p
+{
+	margin: 0;
+	height: 100%;
+	line-height: 28px;
+	vertical-align: middle;
+}
+
+#content
+{
+	width: 1000px;
+	padding-top: 0px;
+	border: 1px solid black;
+	border-top: none;
+	display:table-cell;
+	background-color: 	#E0E0E0;
+	padding-bottom: 15px;
+}
+
+#logo
+{
+	text-align: center;
+	color: black;
+	padding: 10px;
+	letter-spacing: 2px;
+	font-size: 48px;
+	font-weight: 900;
+	border-bottom: 1px solid black;
+}
+
+#menu
+{
+	background-color: darkgrey;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 60px;
+}
+
+#menu button
+{
+	height: 100%;
+	width: 20%;
+	background-color: darkgrey;
+	color: white;
+	border-right: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+}
+
+#menu button:hover
+{
+	opacity: 0.8;
+	background-color: lightgrey;
+}
+
+#menu #button_logout
+{
+	float: right;
+}
+
+#menu #button_addFriend
+{
+	float: left;
+}
+
+#menu #button_profile
+{
+	float: left;
+}
+
+#menu #button_friends
+{
+	float: left;
+}
+
+#menu #button_invitation
+{
+	float: left;
+}
+
+#menu #myAccount
+{
+	float: left;
+	height: 100%;
+	width:20%;
+	box-sizing: border-box;
+}
+
+#menu #myAccount #myAvatar
+{
+	height: 100%;
+	width: 60px;
+	background-color: red;
+	border-radius: 50%;
+	border: 1px solid black;
+	background-size: cover;
+	float:left;
+}
+
+#menu #myAccount #myName
+{
+	height: 40%;
+	width:139px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	border-bottom: 1px solid black;
+	float:left;
+
+}
+
+#menu #myAccount #myDescription
+{
+	height: 60%;
+	width:139px;
+	font-size: 12px;
+	float:left;
+	text-align:center;
+}
+	
+#pcontent
+{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding: 10px;
+	border-bottom: 1px solid white;
+	border-top: 1px solid black;
+	text-align: left;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+.signup #login
+{
+	width: 45%;
+	height: 245px;
+	padding: 10px;
+	float: left;
+	border: 1px solid black;
+	margin-left: 20px;
+	background-color: lightgrey;
+}
+
+.signup #register
+{
+	width: 100%;
+	padding: 10px;
+	float: left;
+	margin-left: 20px;
+}
+
+.signup #moveLogin
+{
+	width: 100%;
+	padding: 10px;
+	float: left;
+	margin-left: 20px;
+}
+
+.signup div
+{
+	border: 1px solid black;
+	width: 50%;
+	padding: 10px;
+	margin-right: 20px;
+	float: right;
+	height: 100%;
+	text-align: center;
+	color: white;
+	background-color: lightgrey;
+}
+
+.signup div p.pheader
+{
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.signup div p
+{
+	width: 100%;
+	margin: 0px;
+}
+
+.signup div form
+{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.signup div input[type=submit]
+{
+	padding: 5px;
+	background-color: #36b03c;
+	margin-bottom: 9px;
+	color: white;
+	width: 50%;
+}
+
+.signup div form:nth-of-type(1)
+{
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+}
+
+.signup #login input[type=text], .signup #login input[type=password] 
+{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    margin-top: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.signup #register input[type=text], .signup #register input[type=password] 
+{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+    margin-top: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.signup #login input[type=submit] 
+{
+    width: 400px;
+    background-color: #36b03c;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 10px;
+}
+
+.signup #register input[type=submit] 
+{
+    width: 400px;
+    background-color: #36b03c;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup #moveLogin input[type=submit] 
+{
+    width: 400px;
+    background-color: #36b03c;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#chat
+{
+	width: 500px;
+	height: 300px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 10px 100px 10px 250px;
+	font-size: 16px;
+	border: 1px solid black;
+	overflow: scroll;
+	background-color: darkgrey;
+	color: white;
+}
+
+#chat::-webkit-scrollbar 
+{
+    background-color: grey;
+}
+
+#chat::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+#chat::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+#chat::-webkit-scrollbar-corner 
+{ 
+	background-color: grey;
+}
+
+#chat .Message
+{
+	min-height: 50px;
+	border-bottom: 1px solid white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#chat .Message .myMessage
+{
+	min-height: 50px;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+
+#chat .Message .friendMessage
+{
+	min-height: 50px;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+
+#chat .Message .myMessage .boldTxt
+{
+	font-weight: bold;
+}
+
+#chat .Message .friendMessage .boldTxt
+{
+	font-weight: bold;
+}
+
+#chat .Message .ptimedate
+{
+	text-align: right;
+	font-size: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+
+#chat .Message .myMessage .filename
+{
+	text-decoration: underline;
+}
+
+#chat .Message .friendMessage .filename
+{
+	text-decoration: underline;
+}
+
+#chat .Message .myMessage .filename:hover
+{
+	cursor:pointer;
+}
+
+#chat .Message .friendMessage .filename:hover
+{
+	cursor:pointer;
+}
+
+#send_message
+{
+	width: 500px;
+	height: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 16px;
+	background-color: darkgrey;
+	color: white;
+	border: 1px solid black;
+	resize: none;
+}
+
+#uploaded_file
+{
+	width: 500px;
+	height: 30px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-left: 10px;
+	font-size: 12px;
+	background-color: darkgrey;
+	color: white;
+	border: 1px solid black;
+}
+
+#send_message::placeholder 
+{
+  color: white;  
+}
+
+#button_send
+{
+	width: 390px;
+	height: 30px;
+	margin-left: 250px;
+	font-size: 16px;
+	border: 1px solid black;
+	background-color: darkgrey;
+	color: white;
+}
+
+#button_send:hover
+{
+	opacity: 0.8;
+	background-color: lightgrey;
+}
+
+#addButton
+{
+	background-color: darkgrey; 
+	color:#fff; 
+	padding:4px; 
+	border-radius:4px; 
+	font-family:monospace;
+}
+
+#addButton:hover
+{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#upload
+{
+	visibility: hidden;	
+}
+
+#button_back
+{
+	width: 500px;
+	height: 30px;
+	margin: 5px 100px 10px 250px;
+	font-size: 16px;
+	border: 1px solid black;
+	background-color: darkgrey;
+	color: white;
+}
+
+#button_back:hover
+{
+	opacity: 0.8;
+	background-color: lightgrey;
+}
+
+#download
+{
+	width: 500px;
+	height: 30px;
+	margin: 5px 100px 10px 250px;
+}
+
+#button_downloadTxt
+{
+	width: 33%;
+	height: 30px;
+	font-size: 16px;
+	border: 1px solid black;
+	background-color: darkgrey; 
+	color:white;
+}
+
+#button_downloadTxt:hover
+{
+	opacity: 0.8;
+	background-color: lightgrey;
+}
+
+#button_downloadHtml
+{
+	width: 32%;
+	height: 30px;
+	font-size: 16px;
+	border: 1px solid black;
+	background-color: darkgrey; 
+	color:white;
+}
+
+#button_downloadHtml:hover
+{
+	opacity: 0.8;
+	background-color: lightgrey;
+}
+
+#button_downloadJson
+{
+	width: 32%;
+	height: 30px;
+	font-size: 16px;
+	border: 1px solid black;
+	background-color: darkgrey; 
+	color:white;
+}
+
+#button_downloadJson:hover
+{
+	opacity: 0.8;
+	background-color: lightgrey;
+}
+
+.start_chat
+{
+
+	font-size: 14px;
+	background-color: #696969;
+	color: white;
+}
+
+.delete_friend
+{
+
+	font-size: 14px;
+	background-color: #696969;
+	color: white;
+}
+
+.start_chat:hover
+{
+	opacity: 0.7;
+	
+}
+
+.delete_friend:hover
+{
+	opacity: 0.7;
+	
+}
+
+#friendsTable
+{
+	width: 90%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#friendsTable thead
+{
+	background-color: DarkSlateGray;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+
+	
+}
+
+#friendsTable tbody
+{
+	background-color: darkgrey;
+	color: white;
+	font-weight: bold;
+	
+}
+
+#friendsTable.center 
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#friendsTable, tr, td 
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+  word-wrap: break-word; 
+  word-break: break-all;
+}
+
+.status {
+    display: inline-block;
+	width: 75%;
+	padding: 0.2em 0.6em 0.3em;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 0.25em;
+
+}
+
+.status-online {
+    background-color: green;
+}
+
+.status-offline {
+    background-color: #d9534f;
+}
+
+#dialogTxt_addFriend
+{
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+
+#dialogButton_addFriend
+{
+	width:100%;
+}
+
+#dialogLabel_addFriend
+{
+	
+}
+
+#dialogLabel_error
+{
+	color: red;
+}
+
+.dialogLabel_Invitation
+{
+	width:100%;
+	color: red;
+}
+
+.dialog_Invitation
+{
+	width:100%;
+	border-bottom: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.dialog_Invitation:first-child
+{
+	border-top: 1px solid black;
+	margin-top: 5px;
+}
+
+.dialog_Invitation .dialogInvButton_accept
+{
+	float: right;
+}
+
+.dialog_Invitation .dialogInvButton_reject
+{
+	float: right;
+}
+
+#updateProfile
+{
+	padding: 20px;
+	width: 40%;
+}
+
+#updateProfile input[type=text]
+{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#updateProfile input[type=submit] 
+{
+    width: 100%;
+    background-color: #36b03c;
+    font-size: 14px;
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
